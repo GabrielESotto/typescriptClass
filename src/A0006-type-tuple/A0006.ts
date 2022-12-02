@@ -2,7 +2,7 @@ const dadosCliente1: readonly [number, string] = [1, 'Luiz'];
 const dadosCliente2: [number, string, string?] = [1, 'Luiz', 'Miranda'];
 const dadosCliente3: [number, string, ...string[]] = [2, 'Gabriel', '...'];
 
-dadosCliente1[0] = 1000;
+// dadosCliente1[0] = 1000; Não pode alterar pois é readonly
 // dadosCliente1[1] = 100; Não pode alterar para um number pq o tipo é string
 
 console.log(dadosCliente1);
